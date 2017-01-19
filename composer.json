@@ -1,0 +1,11 @@
+{
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "@stable",
+    "codeception/codeception": "@stable",
+    "codeception/specify": "@stable"
+  }
+}
