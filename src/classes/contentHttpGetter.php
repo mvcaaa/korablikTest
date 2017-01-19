@@ -40,11 +40,11 @@ class contentHttpGetter implements contentGetterInterface
      *
      * Skipping input url string for now
      * @param string $url
-     * @param string $client
      */
-    public function __construct(string $url = "", $client = "")
+    public function __construct(string $url = "")
     {
-        $this->url = $url;
+        if (!empty($url))
+            $this->url = $url;
     }
 
     /**
